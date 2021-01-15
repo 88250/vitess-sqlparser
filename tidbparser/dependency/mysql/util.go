@@ -41,8 +41,8 @@ var defaultLengthAndDecimal = map[byte]lengthAndDecimal{
 	TypeTinyBlob:   {255, 0},
 	TypeBlob:       {65535, 0},
 	TypeMediumBlob: {16777215, 0},
-	TypeLongBlob:   {4294967295, 0},
-	TypeJSON:       {4294967295, 0},
+	TypeLongBlob:   {429496729, 0}, // 减少一位，否则移动端编译溢出
+	TypeJSON:       {429496729, 0}, // 减少一位，否则移动端编译溢出
 	TypeNull:       {0, 0},
 	TypeSet:        {-1, 0},
 	TypeEnum:       {-1, 0},

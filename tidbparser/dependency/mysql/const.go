@@ -469,8 +469,8 @@ func (m SQLMode) HasIgnoreSpaceMode() bool {
 
 // consts for sql modes.
 const (
-	ModeNone        SQLMode = 0
-	ModeRealAsFloat SQLMode = 1 << iota
+	ModeNone SQLMode = 0
+	ModeRealAsFloat
 	ModePipesAsConcat
 	ModeANSIQuotes
 	ModeIgnoreSpace
