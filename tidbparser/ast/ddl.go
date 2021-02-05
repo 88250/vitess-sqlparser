@@ -14,8 +14,8 @@
 package ast
 
 import (
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/model"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/model"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/types"
 )
 
 var (

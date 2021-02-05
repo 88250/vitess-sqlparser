@@ -22,8 +22,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/blastrain/vitess-sqlparser/bytes2"
-	"github.com/blastrain/vitess-sqlparser/hack"
+	"github.com/88250/vitess-sqlparser/bytes2"
+	"github.com/88250/vitess-sqlparser/hack"
 )
 
 var (

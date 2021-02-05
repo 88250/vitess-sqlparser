@@ -38,7 +38,7 @@ package main
 
 import (
  	"fmt"
-	"github.com/blastrain/vitess-sqlparser/sqlparser"
+	"github.com/88250/vitess-sqlparser/sqlparser"
 )
 
 func main() {

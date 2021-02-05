@@ -22,7 +22,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/hack"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/util/hack"
 	"github.com/juju/errors"
 )
 

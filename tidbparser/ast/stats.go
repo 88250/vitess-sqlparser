@@ -13,7 +13,7 @@
 
 package ast
 
-import "github.com/blastrain/vitess-sqlparser/tidbparser/dependency/model"
+import "github.com/88250/vitess-sqlparser/tidbparser/dependency/model"
 
 var (
 	_ StmtNode = &AnalyzeTableStmt{}

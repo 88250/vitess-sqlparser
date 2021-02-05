@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types/json"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/charset"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/format"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/types/json"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/util/charset"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/util/format"
 )
 
 // UnspecifiedLength is unspecified length.

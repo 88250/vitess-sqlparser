@@ -17,12 +17,12 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/sessionctx/stmtctx"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/terror"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types/json"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/chunk"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/sessionctx/stmtctx"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/terror"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/types/json"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/util/chunk"
 	"github.com/juju/errors"
 )
 

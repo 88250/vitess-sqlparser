@@ -13,7 +13,7 @@
 
 package types
 
-import "github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types/json"
+import "github.com/88250/vitess-sqlparser/tidbparser/dependency/types/json"
 
 // Row is an interface to read columns values.
 type Row interface {

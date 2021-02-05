@@ -13,7 +13,7 @@
 
 package ast
 
-import "github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
+import "github.com/88250/vitess-sqlparser/tidbparser/dependency/types"
 
 // node is the struct implements node interface except for Accept method.
 // Node implementations should embed it in.

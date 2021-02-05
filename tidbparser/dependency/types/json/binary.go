@@ -25,8 +25,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/terror"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/hack"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/terror"
+	"github.com/88250/vitess-sqlparser/tidbparser/dependency/util/hack"
 	"github.com/juju/errors"
 )
 
